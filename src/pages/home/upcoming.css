@@ -1,0 +1,20 @@
+.upcoming-films>div{
+    margin: 30px 30px 0 0;
+}
+
+.upcoming-films{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.text-truncate{
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 230px;
+}
+h2{
+    color: #ffffff;
+    margin-top: 23px;
+}

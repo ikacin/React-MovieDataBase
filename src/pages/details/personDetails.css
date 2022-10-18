@@ -1,0 +1,16 @@
+.person-details{
+    display: flex;
+    margin: 50px 0 0 50px;
+    color: #ffffff;
+}
+
+.content{
+    padding-left: 50px;
+    font-size: 20px;
+    max-width:900px;
+}
+
+.text-biography{
+    margin-top: 10px;
+    font-size: 16px;
+}

@@ -1,0 +1,20 @@
+.container-popular {
+    display: flex;
+    white-space: pre;
+    margin-top: 40px;
+    flex-direction: column;
+}
+.css-8atqhb {
+    width: 100%;
+    margin-left: 20px;
+
+}
+.films-popular {
+    min-width: 1600px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.films-popular>img{
+    margin: 30px 30px 0 0;
+}

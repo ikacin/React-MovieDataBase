@@ -1,0 +1,8 @@
+.credit-actor {
+    margin: 40px 40px;
+}
+.credit-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 10px;
+}

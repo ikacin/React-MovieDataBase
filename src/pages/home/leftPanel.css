@@ -1,0 +1,109 @@
+div div.settings_panel.no_margin {
+    margin: 0;
+}
+div div.settings_panel {
+    display: block;
+    box-sizing: border-box;
+    min-width: 260px;
+    width: 260px;
+    border: 1px solid rgba(var(--lightGrey), 1);
+    border-radius: var(--imageBorderRadius);
+    overflow: hidden;
+    padding-right: 35px;
+}
+
+.card {
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    border: 1px solid rgba(var(--lightGrey), 1);
+    background-color: #fff;
+}
+div div.settings_panel h3, div div.error_panel h3 {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    margin: 0;
+    font-weight: 600;
+    padding: 20px;
+    color: #fff;
+    width: 100%;
+
+}
+h3 {
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+.background_color.light_blue, .k-button.background_color.light_blue {
+    background-color: rgba(var(--accountLightBlue), 1);
+}
+
+div ul.panel.no_scroll {
+    overflow: visible;
+    flex-wrap: wrap;
+}
+
+div ul.panel {
+    box-sizing: border-box;
+    padding: 8px 0;
+}
+ul {
+    list-style-type: none;
+}
+div ul.panel.svg_check li {
+    padding-left: 40px;
+}
+div ul.panel.no_scroll li {
+    white-space: normal;
+}
+div ul.panel li {
+    width: 100%;
+    padding: 10px 20px;
+    font-size: 1em;
+    line-height: 1.4em;
+    margin: 0;
+}
+
+div ul.panel.svg_check li span.glyphicons_v2 {
+    margin-left: -20px;
+    width: 1.2em;
+    height: 1.2em;
+}
+div ul.panel li span.glyphicons_v2 {
+    top: 2px;
+}
+
+.glyphicons_v2.check {
+    background-image: url("../home/leftNavbar-images/glyphicons-basic-739-check-5d342631f0752609bcce3a844f9ba24f1c95d2d06b1674b1ba146d35f9cdce7a.svg");
+}
+
+.glyphicons_v2 {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 1em;
+    min-height: 1em;
+    width: 1em;
+    height: 1em;
+    line-height: inherit;
+    background-position: center center;
+    background-repeat: no-repeat;
+    color: inherit;
+    box-sizing: border-box;
+}
+div ul.panel.svg_check li {
+    padding-left: 40px;
+}
+div ul.panel.no_scroll li {
+    white-space: normal;
+}
+div ul.panel li {
+    width: 100%;
+    padding: 10px 20px;
+    font-size: 1em;
+    line-height: 1.4em;
+    margin: 0;
+}

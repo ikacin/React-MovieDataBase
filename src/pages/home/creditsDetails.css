@@ -1,0 +1,21 @@
+.credit-details {
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+}
+
+.credit-films {
+    display: flex;
+}
+
+.credit-info {
+    margin-left: 20px;
+}
+.credit-person {
+    margin-top: 40px;
+}
+
+.credit-bio{
+    margin-top: 30px;
+    font-size: 14px;
+}

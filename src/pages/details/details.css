@@ -1,0 +1,38 @@
+.films-kind{
+    display: flex;
+    margin-bottom: 20px;
+}
+.overview{
+    font-size: 16px;
+}
+.details-page{
+    margin-top: 50px;
+}
+
+.wrap{
+    display: flex;
+}
+.header-poster{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    color: #ffffff;
+}
+.logo-path{
+    width: 30px;
+}
+.product-list{
+    margin-top: 40px;
+    display: flex;
+
+}
+.actors{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    color: #ffffff;
+}
+
+.actors-list {
+    margin: 30px 30px 0 0;
+}
