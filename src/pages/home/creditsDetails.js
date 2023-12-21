@@ -31,7 +31,7 @@ const CreditsDetails = () => {
             <div className={"credit-details"}>
 
             <div className={"credit-films"}>
-                <image src={`https://www.themoviedb.org/t/p/w220_and_h330_face/${basket.poster_path}`}/>
+                <img src={`https://www.themoviedb.org/t/p/w220_and_h330_face/${basket.poster_path}`}/>
               <div className={"credit-info"}>
                 <div>{basket.original_title}</div>
                 <div>{basket.release_date}</div>
@@ -42,7 +42,7 @@ const CreditsDetails = () => {
             </div>
 
               <div className={"credit-person"}>
-                <image src={`https://www.themoviedb.org/t/p/w220_and_h330_face/${list.profile_path}`}/>
+                <img src={`https://www.themoviedb.org/t/p/w220_and_h330_face/${list.profile_path}`}/>
                 <div>{list.department}</div>
                 <div>{list.original_name}</div>
                 <div>{list.known_for_department}</div>

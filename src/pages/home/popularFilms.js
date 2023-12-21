@@ -35,7 +35,7 @@ const PopularFilms = () => {
             <div className={"films-popular"}>
                 {
                     list.length > 0 && list.map((item,index) => {
-                        return(<image onClick={() => goToPage(item.id)} key={index} src={`https://www.themoviedb.org/t/p/w220_and_h330_face/${item.poster_path}`}/>)
+                        return(<img onClick={() => goToPage(item.id)} key={index} src={`https://www.themoviedb.org/t/p/w220_and_h330_face/${item.poster_path}`}/>)
                     })
                 }
             </div>

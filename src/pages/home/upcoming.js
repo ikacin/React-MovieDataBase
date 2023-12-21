@@ -42,7 +42,7 @@ const UpComing = () => {
                  list.length > 0 &&  list.map((item,index) => {
                         return(
                             <div>
-                                <image onClick={() => goToPage(item.id)} key={index} src={`https://www.themoviedb.org/t/p/w220_and_h330_face/${item.poster_path}`}/>
+                                <img onClick={() => goToPage(item.id)} key={index} src={`https://www.themoviedb.org/t/p/w220_and_h330_face/${item.poster_path}`}/>
                                 <h2 className={"text-truncate"}>{item.title}</h2>
                             </div>
                         )

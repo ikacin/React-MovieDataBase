@@ -37,7 +37,7 @@ const PersonDetails = () => {
                   {loading ? <div>...Yükleniyor</div>:
                     <div/>
                   }
-                  <image onClick={() => gotoPage(list.id)} src={`https://www.themoviedb.org/t/p/w220_and_h330_face/${list.profile_path}`}/>
+                  <img onClick={() => gotoPage(list.id)} src={`https://www.themoviedb.org/t/p/w220_and_h330_face/${list.profile_path}`}/>
                  <div className={"content"}>
                       <h2>{list.name}</h2>
                       <div className={"Blog"}>
