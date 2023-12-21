@@ -79,7 +79,7 @@ const Details = () => {
 
 
           <div className={"wrap"}>
-           <img src={`https://www.themoviedb.org/t/p/w220_and_h330_face/${movieDetails.poster_path}`}/> <Modal photo={`https://www.themoviedb.org/t/p/w220_and_h330_face/${movieDetails.poster_path}`}/>
+           <image src={`https://www.themoviedb.org/t/p/w220_and_h330_face/${movieDetails.poster_path}`}/> <Modal photo={`https://www.themoviedb.org/t/p/w220_and_h330_face/${movieDetails.poster_path}`}/>
               <div className={"header-poster"}>
                   {
 
@@ -114,7 +114,7 @@ const Details = () => {
               actors.length > 0 &&  actors.map((actor,index) => {
                     return(
                         <div className={"actors-list"}>
-                            <img onClick={() => gotoPage(actor.id)} src={`https://www.themoviedb.org/t/p/w220_and_h330_face/${actor.profile_path}`}/>
+                            <image onClick={() => gotoPage(actor.id)} src={`https://www.themoviedb.org/t/p/w220_and_h330_face/${actor.profile_path}`}/>
                             <div>{actor.character}</div>
                             <div>{actor.name}</div>
                         </div>

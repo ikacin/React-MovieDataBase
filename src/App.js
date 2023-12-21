@@ -5,7 +5,6 @@ import Layout from "./layout/layout";
 import Home from "./pages/home/home";
 import MovieDetail from "./pages/details/details"
 import PersonDetails from "./pages/details/personDetails";
-import RegisterForm from "./pages/home/Register";
 import Result from "./pages/home/hesap"
 import Credits from "./pages/home/credits";
 import CreditsDetails from "./pages/home/creditsDetails";
