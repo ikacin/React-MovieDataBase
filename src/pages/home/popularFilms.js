@@ -3,6 +3,9 @@ import axios from "axios";
 import {useState,useEffect} from "react";
 import { useNavigate} from 'react-router-dom';
 import LoadingSpinner from "./loading";
+import MyLazyLoadedImage from "../details/image-lazy-load";
+
+
 
 const PopularFilms = () => {
     const navigate = useNavigate();
@@ -26,16 +29,25 @@ const PopularFilms = () => {
 
   },[])
 
+
+
+
+
     return(
 
         <div className={"container-popular d-flex"}>
             {isLoading ? <LoadingSpinner/>:PopularFilms}
-            <h2>Popular Filmler</h2>
 
+            <h2>Popular Filmler</h2>
             <div className={"films-popular"}>
                 {
                     list.length > 0 && list.map((item,index) => {
-                        return(<img onClick={() => goToPage(item.id)} key={index} src={`https://www.themoviedb.org/t/p/w220_and_h330_face/${item.poster_path}`}/>)
+                        return(   <MyLazyLoadedImage
+                            imageSrc={`https://www.themoviedb.org/t/p/w220_and_h330_face/${item.poster_path}`}
+                            altText="Header Logo"
+                            onClick={() => goToPage(item.id)}
+                            key={index}
+                        />)
                     })
                 }
             </div>

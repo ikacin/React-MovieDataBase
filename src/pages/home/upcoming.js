@@ -2,6 +2,7 @@ import "./upcoming.css";
 import axios from "axios";
 import {useEffect, useState} from "react";
 import {useNavigate} from "react-router-dom";
+import MyLazyLoadedImage from "../details/image-lazy-load";
 
 
 const UpComing = () => {
@@ -42,7 +43,12 @@ const UpComing = () => {
                  list.length > 0 &&  list.map((item,index) => {
                         return(
                             <div>
-                                <img onClick={() => goToPage(item.id)} key={index} src={`https://www.themoviedb.org/t/p/w220_and_h330_face/${item.poster_path}`}/>
+                              <MyLazyLoadedImage
+                                imageSrc={`https://www.themoviedb.org/t/p/w220_and_h330_face/${item.poster_path}`}
+                                altText="Header Logo"
+                                onClick={() => goToPage(item.id)}
+                                key={index}
+                            />
                                 <h2 className={"text-truncate"}>{item.title}</h2>
                             </div>
                         )

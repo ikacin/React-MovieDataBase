@@ -1,10 +1,9 @@
-.upcoming-films>div{
-    margin: 30px 30px 0 0;
-}
+
 
 .upcoming-films{
     display: flex;
     flex-wrap: wrap;
+    gap: 44px;
 }
 
 .text-truncate{
