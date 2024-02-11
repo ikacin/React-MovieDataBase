@@ -2,8 +2,8 @@
 <project version="4">
   <component name="WebServers">
     <option name="servers">
-      <webServer id="dfc5237d-8a8f-4511-9fba-b6dccbd2c8bd" name="localhost">
-        <fileTransfer accessType="SFTP" host="localhost" port="22" sshConfigId="55c527da-21d9-4e1f-b938-bb7d8f197d58" sshConfig="ikacin@localhost:22 key" keyPair="true">
+      <webServer id="523eb03a-5ce4-4a9a-860a-02bcb7ec738b" name="localhost">
+        <fileTransfer accessType="SFTP" sshConfigId="589b2020-9401-4f7f-a13d-473dc4f38dac" sshConfig="ikacin@localhost:22 key">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>

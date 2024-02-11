@@ -1,8 +1,8 @@
 import axios from "axios";
 import {useEffect, useState} from "react";
-import { useParams  } from 'react-router-dom';
+import { useParams,useNavigate  } from 'react-router-dom';
 import "./details.css"
-import {useNavigate} from "react-router-dom";
+import {} from "react-router-dom";
 import LoadingSpinner from "../home/loading";
 import Modal from "../home/modal";
 

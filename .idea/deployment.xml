@@ -6,7 +6,7 @@
       <paths name="localhost">
         <serverdata>
           <mappings>
-            <mapping deploy="/home/ikacin/works/react-homePage" local="$PROJECT_DIR$" web="/" />
+            <mapping local="$PROJECT_DIR$" web="/" />
           </mappings>
         </serverdata>
       </paths>
